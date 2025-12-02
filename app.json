@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "wellness_app",
+    "scheme": "wellness_app",
     "slug": "wellness_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
